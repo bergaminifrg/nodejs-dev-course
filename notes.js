@@ -1,7 +1,5 @@
 // var = function() {}
 // var = () => {}
-
-module.exports.addNote = () => {
-    console.log('addNote');
-    return 'New note';
+module.exports.add = (number_x, number_y) => {
+    return (number_x + number_y);
 }
